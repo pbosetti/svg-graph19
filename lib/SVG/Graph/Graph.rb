@@ -154,8 +154,6 @@ module SVG
 				set_defaults if methods.include? "set_defaults"
 
         init_with config
-        puts "ylfs: #{self.x_label_font_size}"
-        puts "ylfs: #{@x_label_font_size}"
       end
 
       
